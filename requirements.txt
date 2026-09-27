@@ -1,0 +1,4 @@
+tvb-library
+tvb-data
+numpy
+streamlit

@@ -1,0 +1,10 @@
+﻿ID,Prueba,Resultado,Detalle
+V1,Atlas con 76 regiones,APROBADA,regiones=76
+V2,Coordenadas finitas y forma correcta,APROBADA,"forma=(76, 3); valores finitos=True"
+V3,Matriz de conectividad válida,APROBADA,"forma=(76, 76); simétrica=True; diagonal cero=True"
+S1,Salida válida: Ninguna (Línea Base / Crisis Natural),APROBADA,"forma=(2500, 76); finitos=True; RMS_EZ_inicio=1.078886; RMS_PZ_inicio=0.231852; potencia_HFO_30_80=0.33413497"
+S2,Salida válida: Resección Virtual del Foco (EZ),APROBADA,"forma=(2500, 76); finitos=True; RMS_EZ_inicio=0.005101; RMS_PZ_inicio=0.231188; potencia_HFO_30_80=9.5716292e-06"
+S3,Salida válida: Neuromodulación DBS Talamocortical (130 Hz),APROBADA,"forma=(2500, 76); finitos=True; RMS_EZ_inicio=0.304586; RMS_PZ_inicio=0.231141; potencia_HFO_30_80=0.027265259"
+S4,Salida válida: Aislamiento Conectómico de Red (Ablación de Vías),APROBADA,"forma=(2500, 76); finitos=True; RMS_EZ_inicio=1.078886; RMS_PZ_inicio=0.231188; potencia_HFO_30_80=0.33413497"
+M1,Cambio de RMS EZ: línea base vs resección,APROBADA,"RMS base=1.078886; RMS resección=0.005101; cambio=99.53% (comparación descriptiva, no prueba de eficacia clínica)"
+L1,Detección del límite de muestreo para DBS 130 Hz,APROBADA,fs=250 Hz; Nyquist=125.0 Hz; correctamente detectado: 130 Hz NO es representable sin aliasing

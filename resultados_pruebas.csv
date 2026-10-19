@@ -1,0 +1,12 @@
+﻿Módulo,ID,Prueba,Resultado,Detalle
+A,A1,Nodos resecados aislados,APROBADA,filas y columnas seleccionadas deben ser cero
+A,A2,Simetría y diagonal nula,APROBADA,simetría=True
+A,A3,Pérdida de conectividad no negativa,APROBADA,pérdida máxima=0.6726
+B,B1,Estabilidad numérica,APROBADA,"dimensiones EEG=(68, 2500); todos los valores finitos"
+B,B2,Amplitud del foco,APROBADA,amplitud pico a pico=3.703; umbral programado=2.0
+B,B3,Amplitud después de resección,APROBADA,amplitud pico a pico=1.068; umbral=1.2
+C,C1,Atenuación espacial sEEG,APROBADA,relación cerca/lejos=57.93x; umbral=10x
+C,C2,Envolvente 3D,APROBADA,volumen geométrico=1108272.2 unidades cúbicas
+D,D1,Escenario crítico,APROBADA,I_ROM=22.0%; categoría=Alerta crítica
+D,D2,Escenario moderado,APROBADA,I_ROM=73.0%; categoría=Riesgo moderado
+D,D3,Escenario distante,APROBADA,I_ROM=95.8%; categoría=Margen seguro
